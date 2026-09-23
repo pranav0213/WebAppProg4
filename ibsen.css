@@ -41,3 +41,39 @@
 .hovstad {
     color: #c2185b;
 }
+
+/* table: cast list */
+.cast {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 30px auto;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.cast caption {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.cast th, .cast td {
+    border: 1px solid #555555;
+    padding: 10px 14px;
+    text-align: left;
+}
+
+.cast th {
+    background-color: #33402b;
+    color: white;
+}
+
+.cast td:last-child, .cast th:last-child {
+    text-align: right;
+}
+
+.cast tbody tr:nth-child(even) {
+    background-color: #e7efe1;
+}
+
+.cast tbody tr:nth-child(odd) {
+    background-color: white;
+}
