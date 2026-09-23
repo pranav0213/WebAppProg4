@@ -1,0 +1,43 @@
+/* ibsen.css */
+
+/* speech: the words a character says */
+.speech {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+/* q: text style for speech */
+.q {
+    font-style: italic;
+    line-height: 1.6;
+}
+
+/* direction: stage directions */
+.direction {
+    background-color: #eef6e8;
+}
+
+/* hover on direction: changes background and text color */
+.direction:hover {
+    background-color: #33402b;
+    color: #fff4c2;
+}
+
+/* name: character name headings */
+.name {
+    font-family: Georgia, serif;
+}
+
+/* one class per character, each with its own color */
+.stockmann {
+    color: #1565c0;
+}
+
+.aslaksen {
+    color: #2e7d32;
+}
+
+.hovstad {
+    color: #c2185b;
+}
